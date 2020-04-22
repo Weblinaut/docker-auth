@@ -1,0 +1,26 @@
+{
+    "development": {
+      "username": "root",
+      "password": "root",
+      "database": "passport_demo",
+      "host": "host.docker.internal",
+      "dialect": "mysql",
+      "port" : 8889
+    },
+    "test": {
+      "username": "root",
+      "password": "root",
+      "database": "database_test",
+      "host": "host.docker.internal",
+      "dialect": "mysql",
+      "port" : 8889
+    },
+    "production": {
+      "username": "root",
+     "password": "root",
+      "database": "database_production",
+      "host": "host.docker.internal",
+      "dialect": "mysql",
+      "port" : 8889
+    }
+  }
